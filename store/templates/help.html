@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<style>
+.alert{
+    background-color: gray;
+     height:90px;
+    width:455px;
+    border-width:5px;
+    border: 4px solid black;
+    borer-radius:11px;
+}
+
+#hello{
+    background-color:grey;
+    height:100px;
+    width:455px;
+    border: 4px solid black;
+    border-radius:11px;
+}
+
+</style>
+
+
+
+
+<div class="container">
+    <div class="p-5 m-5 border">
+          <div class="col-lg-5 mx-auto">
+           <h3 class="alert"><b>Any Query Please Feel free To Contact Us<b></b></h3>
+              <hr>
+         <table id="hello">
+             <thead>
+             <tr>
+                 <th> Name- </th>
+                 <th> Position- </th>
+                 <th> Phone Number- </th>
+             </tr>
+
+             </thead>
+             <tbody>
+             <tr>
+                <td> Raman- </td>
+                <td> C.E.O- </td>
+               <td> 8263070009- </td>
+             </tr>
+
+               <tr>
+
+                <td> Aman- </td>
+                <td> Manager- </td>
+               <td> 8263050009- </td>
+             </tr>
+
+
+             </tbody>
+
+
+
+         </table>
+
+<hr>
+
+
+
+
+    </div>
+    </div>
+</div>
+
+{% endblock %}

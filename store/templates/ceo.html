@@ -1,0 +1,49 @@
+
+{% extends 'base.html' %}
+
+
+{% block content %}
+<style>
+.container img{
+    border:2px red;
+    border-radius:100px;
+    width:300px;
+    height:400px;
+    
+}
+.container img{
+ background-image:url('ramanpri.jpg');
+}
+</style>
+{%load static%}
+
+<div class="container">
+    <div class="p-5 m-5 border">
+    <h3>From C.E.O Desk</h3>
+    <img  src="{%static 'ramn.jpg'%}"  alt="rahul" class="border rounded-pill">
+    <hr>
+    <p class="text-justify"><strong>Raman Thakur</strong>
+
+<em>Chief executive officer</em>
+
+It is my privilege to welcome you to <em>AV Group Of Companies</em>
+ which has a picturesque campus spreading across an area of over 200 acres with majestic buildings, rhododendron, silver oak, pine and deodar trees offering a salubrious climate and amiable atmosphere for higher studies and research.
+
+It is one of the leading affiliating-cum-residential universities in India.<em> Situated at Plot No E-302 Vista Tower 2nd floor, Sector 75, Sahibzada Ajit Singh Nagar, Punjab 160055</em> Company aims at developing students into knowledgeable individuals and worthy citizens with sound character.</p>
+      </div>
+      </div>
+
+
+
+
+       </form>
+
+
+
+    </div>
+    </div>
+</div>
+
+
+
+{% endblock %}
